@@ -39,6 +39,8 @@ nếu muốn tắt nó thì ta bấm vào phím hình ngôi nhà ở phía trên
 </br>
 Ngoài ra trong đó còn có các chức năng khác như tiếp tục, chơi lại và quay thoát khỏi trò chơi.
 </br>
+</br>
+</br>
 <b>Mục tiêu</b>
 <p>
 người chơi sẽ cố gắng đạt điểm cao nhất có thể(Điểm này sẽ không thay đổi khi mở lại game).
