@@ -39,3 +39,5 @@ const SDL_Color RED_COLOR                       = {255,   0,   0};
 const SDL_Color GREEN_COLOR                     = {  0, 128,   0};
 const SDL_Color WHITE_COLOR                     = {255, 255, 255};
 const SDL_Color BLACK_COLOR                     = {  0,   0,   0};
+const SDL_Color LINE_COLOR                      = {115, 136, 193};
+const SDL_Color DOAN_COLOR                      = {160, 160, 160};
