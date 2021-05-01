@@ -9,7 +9,7 @@ void block::showBoard(SDL_Renderer*&renderer,const SDL_Rect& playScreen){
     dsc.y = playScreen.y;
     dsc.w = p;
     dsc.h = playScreen.h + p;
-    setColorRenderer(renderer,WHITE_COLOR);
+    setColorRenderer(renderer,LINE_COLOR);
     for(int i = 0;i<11;i++){
         SDL_RenderFillRect(renderer,&dsc);
         dsc.x += size + p;
@@ -49,7 +49,7 @@ void block::showBoard2(SDL_Renderer*&renderer,const SDL_Rect& playScreen){
     dsc.y = playScreen.y;
     dsc.w = p;
     dsc.h = playScreen.h + p;
-    setColorRenderer(renderer,WHITE_COLOR);
+    setColorRenderer(renderer,LINE_COLOR);
     for(int i = 0;i<11;i++){
         SDL_RenderFillRect(renderer,&dsc);
         dsc.x += size + p;
@@ -392,7 +392,7 @@ void setColor2(SDL_Renderer*&renderer, int val){
         setColorRenderer(renderer,GREEN_COLOR);
         break;
     default:
-        setColorRenderer(renderer,WHITE_COLOR);
+        setColorRenderer(renderer,DOAN_COLOR);
 
     }
 }
